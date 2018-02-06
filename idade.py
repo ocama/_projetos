@@ -1,6 +1,6 @@
 from datetime import datetime, date
 
-print("Your date of birth (dd mm yyyy)")
+print("Aretusa, Your date of birth (dd mm yyyy)")
 DATE_OF_BIRTH = datetime.strptime(input("--->"), "%d %m %Y")
 
 def calculate_age(born):
